@@ -802,7 +802,7 @@ footer,.footer-section{
 }
 .in-form {
   background-color: #fff;
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 5px;
   font-family: DMSans-Bold;
 }
@@ -812,6 +812,69 @@ footer,.footer-section{
   font-family: Space Grotesk;
   border-radius: 100px;
 }
+
+.form-floating{
+  color: #000;
+}
+
+#floatingPassword{
+  color: #000;
+  padding: 1rem;
+}
+
+/*=========================
+ affordable price
+ ==========================  */
+#af-price{
+  background-color: #ECEAFF;
+}
+ .af-box > div{
+  font-family:Space Grotesk  ;
+  padding: 2rem 3rem;
+  background-color:#fff ; 
+  display: flex;
+  flex-direction: column;
+ font-family:Space Grotesk;
+  justify-content: flex-end;
+ }
+  
+ .af-box > div p{
+  font-size: 4rem;
+ }
+ 
+ .af-first h2{  
+  font-weight: 500;
+  font-size: 2.4rem;
+ }
+ .af-first h2 + p{
+  font-size: 1.3rem;
+  font-family:Space Grotesk;
+  
+ }
+  .af-box > div {
+    position: relative;
+  }
+  .af-box > div span{
+    /* position: relative;
+    top: -0.5rem; */
+    font-size: 0.9rem;
+    display: inline-block;
+    width: fit-content;
+    margin-bottom: 1rem;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #3437FF;
+    color: #fff;
+    font-family: Space Grotesk;
+    font-weight: 500;
+  }
+  .af-box > div:nth-of-type(2){
+    box-shadow: 0 0 15px #00000053;
+  }
+ 
+
+
 
 @media  screen and (max-width: 1200px) {
   .cl-main h1{
