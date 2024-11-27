@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;   
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    
 }
 
 
@@ -769,7 +769,6 @@ footer,.footer-section{
 }
 @font-face {
   font-family: "Space Grotesk";
-  src: url('../fonts/668e9e62338ae31dcfe712bd_SpaceGrotesk-Regular.ttf') format('truetype');
   src: url('../fonts/668e9e6272951397572c8c34_SpaceGrotesk-Medium.ttf') format('truetype');
 }
 
@@ -784,6 +783,7 @@ footer,.footer-section{
   /* background: linear-gradient(210deg, rgb(13, 11, 107) 0%, rgba(0,0,0,1) 24%, rgb(22, 21, 84) 46%, rgba(124,0,17,0.9920343137254902) 72%, rgba(21,37,45,1) 90%); */
   background: linear-gradient(163deg, rgba(33,37,41,1) 0%, rgb(42, 104, 220) 22%, rgba(36,77,112,1) 59%, rgb(20, 29, 59) 87%);
   color: #ffffff;
+  
 }
 
 .cl-main h1{
@@ -795,6 +795,7 @@ footer,.footer-section{
 }
 .ip-main h4 + h1{
   font-size: 4rem;
+  font-family: Space Grotesk ;
 }
 #claud-hero ul li{
   font-size: 1.5rem;
@@ -826,6 +827,20 @@ footer,.footer-section{
 /*=========================
  affordable price
  ==========================  */
+.grid-images h4, .price_end h4{
+  font-family: Space Grotesk;
+}
+.price_end .accordion-button{
+  font-size: 1.4rem !important;
+  font-weight: 500;
+  font-family: Space Grotesk;
+}
+.price_end .accordion-body{
+  font-size: 1.3rem !important;
+  font-weight: 500;
+  font-family: Space Grotesk;
+}
+
 #af-price{
   background-color: #ECEAFF;
 }
@@ -1142,7 +1157,49 @@ footer,.footer-section{
 }
 
 
+/* personal bussiness section */
+.pb-main{
+  background: linear-gradient(270deg, #285CAF 0%, #172443 100%);
+  color: #fff;
+  font-family: Space Grotesk;
+}
+.pb-content h5, .pb-content h4{
+ color: #fff;
+ font-family: Space Grotesk;
+}
+.pb-content h5{
+  font-size: 1.8rem;
+  font-weight: 400px;
+  margin-bottom: 1.8rem;
+  color: #ffffffc1;
+}
+.pb-content h4{
+  font-size: 2.9rem;
+  font-weight: 400px;
+  margin-bottom: 2rem;
+}
+.pb-content p{
+  font-size: 1.3rem;
+  font-weight: 400px;
+  margin-bottom: 2rem;
+  width: 75%;
+   color: #ffffffc1;
+}
+.pb-content a{
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 500;  
+  border-radius: 100px;
+  color:  #fff;
+  font-family: Space Grotesk;
+  transition:  all 0.4s linear; 
 
+}
+.pb-content a:hover{
+  color: #ff5805;
+  transition:  all 0.3s linear;
+}
 
 
 
