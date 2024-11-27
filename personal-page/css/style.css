@@ -965,6 +965,42 @@ footer,.footer-section{
 .cl-icons:hover  a::after{
   width: 60%;
 }
+/*--------------------------------------------------------------
+# image and text Section
+--------------------------------------------------------------*/
+#img-text{
+  /* background-color: #F4F6FC; */
+  font-family: Space Grotesk;
+}
+.it-title{
+  font-size: 1.5rem;
+  margin-bottom: 1.4rem;
+  color: #37385f;
+}
+.it-content h4{
+  font-weight: 400px;
+  font-size: 2.1rem;
+  color: #4c4c6e;
+  font-family:Space Grotesk ;
+  margin-top: 1.7rem;
+}
+.it-content h4 + p{
+  font-size: 1.2rem;
+  color: #4c4c6e;
+  margin: 2rem 0rem 3rem ;
+}
+.it-content ul li{
+  padding: 0.2rem  0rem;
+  margin-left: 1rem;
+}
+.it-content ul li a{
+  font-size: 1.2rem;
+}
+.it-content2 img{
+  width: 95%;
+}
+
+
 
 
 /*--------------------------------------------------------------
@@ -972,6 +1008,7 @@ footer,.footer-section{
 --------------------------------------------------------------*/
 #benefit{
   position: relative;
+  background-color: #F4F6FC;
 }
 
 .benefit-title h4{
