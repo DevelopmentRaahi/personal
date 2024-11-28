@@ -1263,7 +1263,9 @@ footer,.footer-section{
  
 }
 @media screen and (max-width:778px) {
- 
+ .ip-main{
+  row-gap: 2rem;
+ }
   .cl-main h1{
     font-size: 5rem;
   }
