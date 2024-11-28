@@ -1216,12 +1216,6 @@ footer,.footer-section{
 
 
 
-@media screen and (max-width:850px) {
-  .int-heading p{
-    font-size: 3.2rem;
-  }
- 
-}
 
 @media screen and (max-width:1200px) {
   .cl-icons{
@@ -1258,17 +1252,30 @@ footer,.footer-section{
   }
 
 }
+
+@media screen and (max-width:850px) {
+  .int-heading p{
+    font-size: 3.2rem;
+  }
+  .ip-main h4 + h1{
+    font-size: 6rem;
+  }
+ 
+}
 @media screen and (max-width:778px) {
+ 
   .cl-main h1{
     font-size: 5rem;
   }
   .cl-icons h4{
-    font-size: 2.3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
   .cl-icons p{
-    font-size: 1.6rem;
+    color: #dddddd;
+    font-size: 1.3rem;
     font-family: Space Grotesk;
-    width: 80%;
+    width: 90%;
   }
   .cl-icons a{
     align-self: flex-start;
@@ -1278,8 +1285,66 @@ footer,.footer-section{
     margin-right: 10px;
     text-align: center;
   }
+  .af-box > div{
+    padding: 1rem ;
+  }
+  .af-box > div span{
+    font-size: 1.2rem;
+  }
+  .it-content .it-title{
+    font-size: 1.5rem;
+  }
+  .it-content h4{
+    font-size: 2.2rem;
+  }
+  .it-content h4 + p{
+    font-size: 1.4rem;
+  }
+  .it-content ul li a{
+    font-size: 1.4rem;
+  }
+  .ip-main h4 + h1{
+    font-size: 5rem;
+  }
+  .ip-main p{
+    font-size: 1.2rem;
+  }
+  .sp-table table th{
+    font-size: 1.2rem;
+  }
+  .sp-table table td{
+    text-wrap: wrap;
+  }
+  .cl-icons h4{
+    font-size: 1.5rem;
+  }
+ 
+}
+.sp-table table td:not(:first-child), 
+.sp-table table th:not(:first-child){
+  text-align: center;
+}
+@media screen and (max-width:600px) {
+  .ip-main h4 + h1{
+    font-size: 4rem;
+  }
+  #claud-hero ul li{
+    font-size: 1.4rem;
+  }
 }
 @media screen and (max-width:450px) {
+  .ip-main h4 + h1{
+    font-size: 3rem;
+  }
+  .pb-content p{
+    width: 90%;
+  }
+  .pb-content h5{
+    font-size: 1.4rem;
+  }
+  .cl-icons{
+    display: grid;
+  }
   .cl-main h1{
     font-size: 4rem;
   }
@@ -1344,7 +1409,7 @@ footer,.footer-section{
     font-size: 2rem;
   }
   .benefit-content p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .benefit-content h4{
     font-size: 1.7rem;
