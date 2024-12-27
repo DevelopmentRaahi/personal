@@ -1200,7 +1200,10 @@ footer,.footer-section{
   color: #ff5805;
   transition:  all 0.3s linear;
 }
-
+.ch-content h1{
+  font-size: 4rem;
+  font-family: Space Grotesk;
+}
 
 
 
