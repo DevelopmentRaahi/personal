@@ -827,9 +827,15 @@ footer,.footer-section{
 /*=========================
  affordable price
  ==========================  */
-.grid-images h4, .price_end h4{
+.grid-images h4, .price_end h3{
   font-family: Space Grotesk;
 }
+ .price_end h3{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+ }
 .price_end .accordion-button{
   font-size: 1.4rem !important;
   font-weight: 500;
@@ -940,7 +946,7 @@ footer,.footer-section{
   border-radius: 5px;
   transition: all 0.4s linear;
 } 
- .cl-icons h4{
+ .cl-icons h3{
   color: #fff;
 }
 .cl-icons span i{
@@ -1027,7 +1033,7 @@ footer,.footer-section{
   background-color: #F4F6FC;
 }
 
-.benefit-title h4{
+.benefit-title h3{
   font-weight: 400px;
   font-size: 1.5rem;
   color: #37385f;
@@ -1123,14 +1129,14 @@ footer,.footer-section{
   margin-bottom: 1.4rem;
   color: #37385f;
 }
-.sp-title h4{
+.sp-title h2{
   font-weight: 400px;
   font-size: 2.1rem;
   color: #4c4c6e;
   font-family:Space Grotesk ;
   margin-top: 1.7rem;
 }
-.sp-title h4 + p{
+.sp-title h2 + p{
   font-size: 1.3rem;
   color: #4c4c6e;
   margin: 1rem 0rem  ;
@@ -1163,17 +1169,17 @@ footer,.footer-section{
   color: #fff;
   font-family: Space Grotesk;
 }
-.pb-content h5, .pb-content h4{
+.pb-content h3{
  color: #fff;
  font-family: Space Grotesk;
 }
-.pb-content h5{
+.pb-content h3:first-of-type{
   font-size: 1.8rem;
   font-weight: 400px;
   margin-bottom: 1.8rem;
   color: #ffffffc1;
 }
-.pb-content h4{
+.pb-content h3{
   font-size: 2.9rem;
   font-weight: 400px;
   margin-bottom: 2rem;
@@ -1272,7 +1278,7 @@ footer,.footer-section{
   .cl-main h1{
     font-size: 5rem;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 2rem;
     margin-bottom: 1rem;
   }
@@ -1320,7 +1326,7 @@ footer,.footer-section{
   .sp-table table td{
     text-wrap: wrap;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 1.5rem;
   }
  
@@ -1344,7 +1350,7 @@ footer,.footer-section{
   .pb-content p{
     width: 90%;
   }
-  .pb-content h5{
+  .pb-content h3{
     font-size: 1.4rem;
   }
   .cl-icons{
@@ -1353,7 +1359,7 @@ footer,.footer-section{
   .cl-main h1{
     font-size: 4rem;
   }
-  .cl-icons h4{
+  .cl-icons h3{
     font-size: 2rem;
   }
   .cl-icons p{
@@ -1416,7 +1422,7 @@ footer,.footer-section{
   .benefit-content p{
     font-size: 1.4rem;
   }
-  .benefit-content h4{
+  .benefit-content h3{
     font-size: 1.7rem;
   }
   .intro-btn .btn-started, 
